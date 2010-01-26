@@ -1,0 +1,39 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.61.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 63d6943f9829c1ddc9cc909cfc97ef9deef217a6 Build.PL
+SHA1 77712e549cd7ea49beace62eebf69ae32dd9ec7b Changes
+SHA1 9d411e5462ac0ef4456bc9b8eb72d942c8af15b0 MANIFEST
+SHA1 262b6a8461bbc4d49c4e8b23b1b3e36360acd771 META.yml
+SHA1 7c0315e612f3fe151877dd5bea1f1a9373d4bd83 Makefile.PL
+SHA1 00153e8433ef726d57a6ca08a48bc9d6cb114afd README
+SHA1 0c2c1411fa80083bf03107230320879cfe614d8c lib/XML/Char.h
+SHA1 fbf8dae67d1834fae42c158f50e558a76c47c196 lib/XML/Char.pm
+SHA1 3a369552a3a78110a55781bb4a7c160e89aea841 lib/XML/Char.xs
+SHA1 2607dc17c00339667abc577d88ccff3f412b3f7a lib/XML/ppport.h
+SHA1 bba704cc25489b4ac384b44134436a15f0bec2d1 t/01_XML-Char.t
+SHA1 41533fbd463e42d2ecf1e119eca910c16809d13e t/distribution.t
+SHA1 10c564e5ffe84748070827b350edbf3d6b832b20 t/fixme.t
+SHA1 0b1c5a2d59be6bfa7d60c64cd964fea6a0331705 t/pod-coverage.t
+SHA1 57ff498904246d147098ae9a34b38f38571ba18e t/pod-spell.t
+SHA1 640935336dc1123c0069bcf5432bcaedc2cf22d3 t/pod.t
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (GNU/Linux)
+
+iEYEARECAAYFAktfTJQACgkQC0OgUPgL2SfY9gCffYIzUGen4veck7EV6WzPo1u6
+JBoAn2KlG2J2AmXDuSxRYR9/TL+DRMEj
+=h8v4
+-----END PGP SIGNATURE-----
